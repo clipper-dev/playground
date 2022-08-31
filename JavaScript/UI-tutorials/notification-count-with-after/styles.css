@@ -1,0 +1,38 @@
+body {
+    background: #24292f;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.notification {
+    position: relative;
+    color: #fafafa;
+    z-index: 1;
+}
+.notification::after{
+    content: attr(notificationCount);
+    font: bold 10px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    background: tomato;
+    color: #fff;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification[notificationCount="0"]::after{
+	display: none;
+}
+
+
+

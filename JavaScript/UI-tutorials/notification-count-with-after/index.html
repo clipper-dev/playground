@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="notification-display" class="material-symbols-outlined notification" notificationCount=0>
+        notifications
+        </div>
+      <div>
+        <button type="button" class="button" onclick="addNotification()">
+          +1
+        </button>
+        <button type="button" class="button" onclick="resetNotification()">
+          0
+        </button>
+        <button type="button" class="button" onclick="removeNotification()">
+          -1
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
