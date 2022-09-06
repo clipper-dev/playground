@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #24292E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.orange{
+    color: tomato;
+}
+.spinner {
+    margin: 3rem;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    animation: spin 2s ease-in-out infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        border-radius: 50%;
+        background-color: blueviolet;
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+
