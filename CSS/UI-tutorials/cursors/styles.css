@@ -14,3 +14,21 @@ body {
 .text {
     color: #fafafa;
 }
+.plum {
+    color:plum;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-copy{
+    cursor:copy;
+}
+.cursor-cell{
+    cursor:cell;
+}
+.cursor-move{
+    cursor: move;
+}
+.cursor-crosshair{
+    cursor: crosshair;
+}

@@ -1,0 +1,35 @@
+body {
+    background: #16151A;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.text {
+    color: #fafafa;
+    font-size: 3rem;
+    font-weight: 800;
+    position: relative;
+}
+.plum{
+    color:plum;
+}
+.text::after{
+    position: absolute;
+    left:0;
+    bottom: calc(50% - 5px / 2);
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: orchid;
+    transition: all 0.2s ease-in-out;
+}
+.text:hover::after  {
+    width: 100%;    
+}
