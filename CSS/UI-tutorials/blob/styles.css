@@ -1,0 +1,32 @@
+body {
+    background: #16151A;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.button {
+    margin: 1rem;
+    padding: 0.3rem 1.5rem;
+    background-color: rgb(144, 84, 200);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0 2px 4px rgb(144, 84, 200, 0.3), 0 0px 10px rgb(144, 84, 200, 0.3);
+}
+.blob {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+
+}

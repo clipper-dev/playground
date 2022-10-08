@@ -1,0 +1,29 @@
+body {
+    background: #16151A;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.button-inner {
+    color: #fafafa;
+    background-color: #36353a;
+    padding: 0.4rem 1.2rem;
+    border-radius: 6px;
+}
+.button-outer {
+    padding: .2rem;
+    border-radius: 8px;
+    background: linear-gradient(135deg, plum, tomato);
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.button-outer:hover {
+    box-shadow: 0 0 8px 2px rgba(221, 160, 221, 0.256), 0 4px 16px 4px rgba(221, 160, 221, 0.256);
+}
